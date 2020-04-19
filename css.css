@@ -57,24 +57,21 @@ form p {
 }
 
 .header{
-    width:100%;
+    width:calc(100%-50px);
     height:60px;
+    padding-left:30px;
     display: -webkit-flex; /* Safari */
     display: flex;
-    -webkit-justify-content: space-around; /* Safari */
-    justify-content: space-around;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content: space-between;
     -webkit-align-items: center; /* Safari */
     align-items: center;
 }
 .intro{
-    position:absolute;
-    left:0;
-    top:35%;
     background-color: rgba(220, 220, 220, 0.9);
     margin-left:calc(35% - 250px);
     margin-right:calc(35% - 250px);
     width: calc(30% + 500px);
-    height: calc(30% + 220px);
     -webkit-box-shadow: 0px 0px 81px 6px rgba(255,255,255,0.9);
 -moz-box-shadow: 0px 0px 81px 6px rgba(255,255,255,0.9);
 box-shadow: 0px 0px 81px 6px rgba(255,255,255,0.9);
@@ -101,12 +98,11 @@ border-radius: 11px;
     position:absolute;
     top:0;
     left:0;
-    width:calc(100% + 500px);
+    width:calc(100%);
 }
 
 .middle{
     z-index:5;
-    position:fixed;
     width:100%;
     height:80%;
     display: flex;
