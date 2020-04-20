@@ -1,5 +1,5 @@
 # vidavault.github.io
-VidaVault Website: [vidavault.github.io](vidavault.github.io)
+VidaVault Website: [https://vidavault.github.io/](https://vidavault.github.io/)
 
 # Resources & News
 _Coming soon!_
